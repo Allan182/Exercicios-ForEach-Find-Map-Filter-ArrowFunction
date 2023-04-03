@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-color: grey;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 550px;
+    height: 350px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
