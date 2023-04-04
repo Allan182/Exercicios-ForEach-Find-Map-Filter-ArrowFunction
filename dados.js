@@ -36,5 +36,4 @@ export const pessoa = [
     { "people": "Guilherme Barreto Moreira", "mom": "Lucia de Oliveira Barreto", "dad": "Nicolas Frossard Moreira", "cep": { "type": "Pra\u00e7a", "street": "Santo Amaro de Ipitanga", "neighborhood": "Centro", "city": "Lauro de Freitas", "state": "BA", "cep": "42703530" } },
     { "people": "Jos\u00e9 Coelho Quintanilha", "mom": "Regina Zambelli Coelho", "dad": "Kau\u00e3 Neto Quintanilha", "cep": { "type": "Rua", "street": "Federa\u00e7\u00e3o", "neighborhood": "Centro", "city": "Taquara", "state": "RS", "cep": "95600068" } },
     { "people": "Joelma Mozer Monteiro", "mom": "Lucia de Oliveira Barreto", "dad": "Devanir Salom\u00e3o Monteiro", "cep": { "type": "Rua", "street": "H", "neighborhood": "Olho D'\u00c1gua", "city": "S\u00e3o Lu\u00eds", "state": "MA", "cep": "65067546" } },
-
 ];

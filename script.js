@@ -1,6 +1,6 @@
 import { pessoa } from "./dados.js";
 
-const outSaida = document.querySelector(".container");
+const container = document.querySelector(".container");
 
 
 /* 1 - Crie uma listagem do nome das pessoas no HTML;
@@ -8,14 +8,14 @@ const outSaida = document.querySelector(".container");
     pessoa.forEach((e) => {
     let p = document.createElement("p");
     p.textContent = e.people;
-    outSaida.appendChild(p)
+    container.appendChild(p)
 }); */
 
 
 
-/* 2 - Crie um card  com as informações de afiliação, mãe e pai de cada pessoa.
+// 2 - Crie um card  com as informações de afiliação, mãe e pai de cada pessoa.
 
-    pessoa.forEach((e) => {
+pessoa.forEach((e) => {
 
     let card = document.createElement("div");
     card.classList.add("card");
@@ -30,9 +30,9 @@ const outSaida = document.querySelector(".container");
     card.appendChild(afiliacao);
     card.appendChild(pai);
     card.appendChild(mae);
-    outSaida.appendChild(card);
+    container.appendChild(card);
 
-}); */
+});
 
 
 /* 3 -  Crie um array com todos os estados que aparecem no endereço das pessoas.
@@ -85,7 +85,7 @@ let filhasLucia = pessoa.filter(e => {
 console.log(filhasLucia); */
 
 
-/* 7 Verifique se “Maria Isabela Paula Vasgestian” é mãe. */
+/* 7 Verifique se “Maria Isabela Paula Vasgestian” é mãe. 
 
 let encontraMae = pessoa.filter(e => e.mom == "Maria Isabela Paula Vasgestian"); // Filter retorna um Array, Seja com Elementos [x, x] ou [] caso a expressão seja false; 
 
@@ -98,8 +98,9 @@ let verificaMae = (array) => { // Verifica se a função Encontra Mãe retorna u
           return array;
       } else {
           return "Não é mãe!!!";
-      } */
+      } 
+      
 
 };
 
-console.log(verificaMae(encontraMae));
+console.log(verificaMae(encontraMae)); */
