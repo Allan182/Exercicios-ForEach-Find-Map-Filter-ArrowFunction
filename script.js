@@ -91,7 +91,7 @@ let encontraMae = pessoa.filter(e => e.mom == "Maria Isabela Paula Vasgestian");
 
 let verificaMae = (array) => { // Verifica se a função Encontra Mãe retorna um Array.Length = 0 / seja vazio []. Ou se o Array contem algum elemento.
 
-    return (array.length > 0) ? array : "Não é mãe"; //  -> Operador Ternário
+    return (array.length > 0) ? array : "Não é mãe"; //  -> Operador Ternário.
 
 
     /*  if (array.length > 0) {     //  If -> Else 
